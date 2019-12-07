@@ -1,13 +1,32 @@
 get:
   operationId: usersGet
   summary: get user list
+  tags: [user]
   parameters:
     - $ref: ../components/parameters/page.yml
     - $ref: ../components/parameters/per_page.yml
   responses:
     200:
-      description: OK
+      description: ok
       content:
         application/json:
           schema:
             $ref: ../components/schemas/user_list.yml
+post:
+  operationId: usersPost
+  summary: create new user
+  tags: [user]
+  requestBody:
+    description: user information
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: ../components/schemas/user_input.yml
+  responses:
+    201:
+      description: created
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/user.yml

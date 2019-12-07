@@ -33,8 +33,29 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/user_list'
-          description: OK
+          description: ok
       summary: get user list
+      tags:
+      - user
+    post:
+      operationId: usersPost
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user_input'
+        description: user information
+        required: true
+      responses:
+        201:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+          description: created
+      summary: create new user
+      tags:
+      - user
 components:
   schemas:
     user_list:
@@ -59,6 +80,13 @@ components:
       required:
       - data
       - page_info
+      type: object
+    user_input:
+      properties:
+        user:
+          $ref: '#/components/schemas/user_input_user'
+      required:
+      - user
       type: object
     user:
       description: user
@@ -98,3 +126,16 @@ components:
       - page
       - per_page
       type: object
+    user_input_user:
+      description: user information
+      properties:
+        email:
+          description: email address
+          format: email
+          type: string
+        name:
+          description: name
+          type: string
+      required:
+      - email
+      - name
