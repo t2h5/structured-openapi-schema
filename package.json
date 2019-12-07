@@ -2,6 +2,10 @@
   "name": "structured-openapi-schema",
   "description": "example project for structured openapi schema",
   "author": "t2h5",
+  "scripts": {
+    "validate": "openapi-generator validate -i root.yml",
+    "generate": "openapi-generator generate -g openapi-yaml -i root.yml -o generated"
+  },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^1.0.8-4.2.2"
   }

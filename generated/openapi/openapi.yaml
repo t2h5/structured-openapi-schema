@@ -1,0 +1,20 @@
+openapi: 3.0.2
+info:
+  title: Example Project
+  version: "1.0"
+servers:
+- description: Local API Server
+  url: http://localhost:PORT/{api_version}
+  variables:
+    api_version:
+      default: v1
+      enum:
+      - v1
+paths:
+  /users:
+    get:
+      responses:
+        200:
+          description: ok
+components:
+  schemas: {}
