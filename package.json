@@ -3,10 +3,14 @@
   "description": "example project for structured openapi schema",
   "author": "t2h5",
   "scripts": {
-    "validate": "openapi-generator validate -i root.yml",
-    "generate": "openapi-generator generate -g openapi-yaml -i root.yml -o generated"
+    "validate-root-schema": "openapi-generator validate -i root.yml",
+    "validate-generated-schema": "openapi-generator validate -i generated/openapi/openapi.yaml",
+    "run-generator": "openapi-generator generate -g openapi-yaml -i root.yml -o generated",
+    "validate": "npm-run-all -s validate-root-schema validate-generated-schema",
+    "generate": "npm-run-all -s run-generator validate-generated-schema"
   },
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^1.0.8-4.2.2"
+    "@openapitools/openapi-generator-cli": "^1.0.8-4.2.2",
+    "npm-run-all": "^4.1.5"
   }
 }
