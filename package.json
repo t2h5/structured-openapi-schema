@@ -1,0 +1,8 @@
+{
+  "name": "structured-openapi-schema",
+  "description": "example project for structured openapi schema",
+  "author": "t2h5",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^1.0.8-4.2.2"
+  }
+}
