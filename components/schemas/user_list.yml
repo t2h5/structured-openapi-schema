@@ -1,0 +1,11 @@
+type: object
+required:
+  - data
+  - page_info
+properties:
+  data:
+    type: array
+    items:
+      $ref: ./user.yml
+  page_info:
+    $ref: ./page_info.yml

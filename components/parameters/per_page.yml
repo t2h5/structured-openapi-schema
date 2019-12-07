@@ -1,0 +1,6 @@
+in: query
+name: per_page
+description: number of items per page
+required: false
+schema:
+  type: integer

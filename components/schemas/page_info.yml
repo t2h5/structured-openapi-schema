@@ -1,0 +1,10 @@
+type: object
+description: page information
+required: [page, per_page]
+properties:
+  page:
+    type: integer
+    description: page number
+  per_page:
+    type: integer
+    description: number of items per page

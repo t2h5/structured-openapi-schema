@@ -4,7 +4,7 @@ info:
   version: "1.0"
 servers:
 - description: Local API Server
-  url: http://localhost:PORT/{api_version}
+  url: http://localhost:0000/{api_version}
   variables:
     api_version:
       default: v1
@@ -13,8 +13,88 @@ servers:
 paths:
   /users:
     get:
+      operationId: usersGet
+      parameters:
+      - description: page number
+        in: query
+        name: page
+        required: false
+        schema:
+          type: integer
+      - description: number of items per page
+        in: query
+        name: per_page
+        required: false
+        schema:
+          type: integer
       responses:
         200:
-          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user_list'
+          description: OK
+      summary: get user list
 components:
-  schemas: {}
+  schemas:
+    user_list:
+      example:
+        data:
+        - name: name
+          id: 0
+          email: email
+        - name: name
+          id: 0
+          email: email
+        page_info:
+          per_page: 1
+          page: 6
+      properties:
+        data:
+          items:
+            $ref: '#/components/schemas/user'
+          type: array
+        page_info:
+          $ref: '#/components/schemas/page_info'
+      required:
+      - data
+      - page_info
+      type: object
+    user:
+      description: user
+      example:
+        name: name
+        id: 0
+        email: email
+      properties:
+        id:
+          description: ID
+          type: integer
+        email:
+          description: email address
+          format: email
+          type: string
+        name:
+          description: name
+          type: string
+      required:
+      - email
+      - id
+      - name
+      type: object
+    page_info:
+      description: page information
+      example:
+        per_page: 1
+        page: 6
+      properties:
+        page:
+          description: page number
+          type: integer
+        per_page:
+          description: number of items per page
+          type: integer
+      required:
+      - page
+      - per_page
+      type: object

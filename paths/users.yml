@@ -1,0 +1,13 @@
+get:
+  operationId: usersGet
+  summary: get user list
+  parameters:
+    - $ref: ../components/parameters/page.yml
+    - $ref: ../components/parameters/per_page.yml
+  responses:
+    200:
+      description: OK
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/user_list.yml

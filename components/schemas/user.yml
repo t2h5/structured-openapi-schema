@@ -1,0 +1,14 @@
+type: object
+description: user
+required: [id, email, name]
+properties:
+  id:
+    type: integer
+    description: ID
+  email:
+    type: string
+    format: email
+    description: email address
+  name:
+    type: string
+    description: name

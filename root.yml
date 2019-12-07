@@ -5,7 +5,7 @@ info:
   version: '1.0'
 
 servers:
-  - url: http://localhost:PORT/{api_version}
+  - url: http://localhost:0000/{api_version}
     description: Local API Server
     variables:
       api_version:
@@ -15,7 +15,4 @@ servers:
 
 paths:
   /users:
-    get:
-      responses:
-        200:
-          description: ok
+    $ref: ./paths/users.yml
