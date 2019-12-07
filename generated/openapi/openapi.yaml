@@ -56,6 +56,67 @@ paths:
       summary: create new user
       tags:
       - user
+  /users/{user_id}:
+    delete:
+      operationId: usersIdDelete
+      parameters:
+      - description: user id
+        in: path
+        name: user_id
+        required: true
+        schema:
+          type: integer
+      responses:
+        204:
+          description: deleted
+      summary: delete user
+      tags:
+      - user
+    get:
+      operationId: usersIdGet
+      parameters:
+      - description: user id
+        in: path
+        name: user_id
+        required: true
+        schema:
+          type: integer
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+          description: ok
+      summary: get user
+      tags:
+      - user
+    patch:
+      operationId: usersIdPatch
+      parameters:
+      - description: user id
+        in: path
+        name: user_id
+        required: true
+        schema:
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user_input'
+        description: user information
+        required: true
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+          description: ok
+      summary: update user
+      tags:
+      - user
 components:
   schemas:
     user_list:

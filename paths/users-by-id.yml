@@ -1,0 +1,57 @@
+get:
+  operationId: usersIdGet
+  summary: get user
+  tags: [user]
+  parameters:
+    - in: path
+      name: user_id
+      description: user id
+      required: true
+      schema:
+        type: integer
+  responses:
+    200:
+      description: ok
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/user.yml
+patch:
+  operationId: usersIdPatch
+  summary: update user
+  tags: [user]
+  parameters:
+    - in: path
+      name: user_id
+      description: user id
+      required: true
+      schema:
+        type: integer
+  requestBody:
+    description: user information
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: ../components/schemas/user_input.yml
+  responses:
+    200:
+      description: ok
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/user.yml
+delete:
+  operationId: usersIdDelete
+  summary: delete user
+  tags: [user]
+  parameters:
+    - in: path
+      name: user_id
+      description: user id
+      required: true
+      schema:
+        type: integer
+  responses:
+    204:
+      description: deleted
