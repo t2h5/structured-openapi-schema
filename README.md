@@ -25,7 +25,7 @@ components/   # https://swagger.io/specification/#componentsObject
   parameters/ # https://swagger.io/specification/#parameterObject
 ```
 
-But you can the change directory structure as you like.
+But you can change directory structure as you like.
 
 ## how to use
 
