@@ -12,4 +12,5 @@ jobs:
     - name: yarn install, generate
       run: |
         yarn install
+        yarn check-yml
         yarn generate
