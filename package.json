@@ -4,8 +4,8 @@
   "author": "t2h5",
   "scripts": {
     "validate-root-schema": "openapi-generator validate -i root.yml",
-    "validate-generated-schema": "openapi-generator validate -i generated/openapi/openapi.yaml",
-    "run-generator": "openapi-generator generate -g openapi-yaml -i root.yml -o generated",
+    "validate-generated-schema": "openapi-generator validate -i generated/openapi.json",
+    "run-generator": "openapi-generator generate -g openapi -i root.yml -o generated",
     "markdown": "openapi-generator generate -g markdown -i root.yml -o docs",
     "validate": "npm-run-all -s validate-root-schema validate-generated-schema",
     "generate": "npm-run-all -s run-generator markdown validate-generated-schema",
