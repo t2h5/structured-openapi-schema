@@ -6,12 +6,13 @@
     "validate-root-schema": "openapi-generator validate -i root.yml",
     "validate-generated-schema": "openapi-generator validate -i generated/openapi/openapi.yaml",
     "run-generator": "openapi-generator generate -g openapi-yaml -i root.yml -o generated",
+    "markdown": "openapi-generator generate -g markdown -i root.yml -o docs",
     "validate": "npm-run-all -s validate-root-schema validate-generated-schema",
-    "generate": "npm-run-all -s run-generator validate-generated-schema",
+    "generate": "npm-run-all -s run-generator markdown validate-generated-schema",
     "watch": "chokidar 'root.yml' '**/*.yml' -c 'yarn generate'"
   },
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^1.0.8-4.2.2",
+    "@openapitools/openapi-generator-cli": "^1.0.10-4.2.3",
     "chokidar-cli": "^2.1.0",
     "npm-run-all": "^4.1.5"
   }

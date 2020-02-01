@@ -28,7 +28,7 @@ paths:
         schema:
           type: integer
       responses:
-        200:
+        "200":
           content:
             application/json:
               schema:
@@ -47,7 +47,7 @@ paths:
         description: user information
         required: true
       responses:
-        201:
+        "201":
           content:
             application/json:
               schema:
@@ -67,7 +67,7 @@ paths:
         schema:
           type: integer
       responses:
-        204:
+        "204":
           description: deleted
       summary: delete user
       tags:
@@ -82,7 +82,7 @@ paths:
         schema:
           type: integer
       responses:
-        200:
+        "200":
           content:
             application/json:
               schema:
@@ -108,7 +108,7 @@ paths:
         description: user information
         required: true
       responses:
-        200:
+        "200":
           content:
             application/json:
               schema:
