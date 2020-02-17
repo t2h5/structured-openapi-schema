@@ -31,9 +31,9 @@ But you can change directory structure as you like.
 
 ### edit schema
 
-For the case of adding `/notes` path.
+For the case of adding `/notes` to routing.
 
-Add `notes.yml` into `/paths`.
+Add `notes.yml` into `./paths`.
 
 ```yaml
 # paths/notes.yml
@@ -67,12 +67,12 @@ paths:
 
 Almost all of the editors or plugins cannot evaluate file reference using `$ref`. (as far as I know)
 
-If you need OpenAPI schema as a single YAML (or JSON) file, you can merge structured files using [openapi-generator](https://github.com/OpenAPITools/openapi-generator
+If you need OpenAPI schema as a single JSON (or YAML) file, you can merge structured files using [openapi-generator](https://github.com/OpenAPITools/openapi-generator
 ).
 
 ```shell
-# generate openapi.yaml
-$ openapi-generator generate -g openapi-yaml -i root.yml -o generated
 # generate openapi.json
 $ openapi-generator generate -g openapi -i root.yml -o generated
+# generate openapi.yaml
+$ openapi-generator generate -g openapi-yaml -i root.yml -o generated
 ```
