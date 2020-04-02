@@ -1,4 +1,4 @@
-# ./Models.UserList
+# UserList
 ## Properties
 
 Name | Type | Description | Notes

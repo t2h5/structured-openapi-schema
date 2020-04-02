@@ -1,4 +1,4 @@
-# ./Models.UserInputUser
+# UserInputUser
 ## Properties
 
 Name | Type | Description | Notes

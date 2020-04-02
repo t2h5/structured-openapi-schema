@@ -1,4 +1,4 @@
-# ./Models.PageInfo
+# PageInfo
 ## Properties
 
 Name | Type | Description | Notes

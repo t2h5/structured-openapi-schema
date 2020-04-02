@@ -26,7 +26,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**user_list**](/Models/user_list.md)
+[**user_list**](..//Models/user_list.md)
 
 ### Authorization
 
@@ -76,7 +76,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**user**](/Models/user.md)
+[**user**](..//Models/user.md)
 
 ### Authorization
 
@@ -98,11 +98,11 @@ update user
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **userId** | **Integer**| user id | [default to null]
- **userInput** | [**UserInput**](/Models/UserInput.md)| user information |
+ **userInput** | [**UserInput**](..//Models/UserInput.md)| user information |
 
 ### Return type
 
-[**user**](/Models/user.md)
+[**user**](..//Models/user.md)
 
 ### Authorization
 
@@ -123,11 +123,11 @@ create new user
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userInput** | [**UserInput**](/Models/UserInput.md)| user information |
+ **userInput** | [**UserInput**](..//Models/UserInput.md)| user information |
 
 ### Return type
 
-[**user**](/Models/user.md)
+[**user**](..//Models/user.md)
 
 ### Authorization
 
