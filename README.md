@@ -72,7 +72,7 @@ If you need OpenAPI schema as a single JSON (or YAML) file, you can merge struct
 
 ```shell
 # generate openapi.json
-$ openapi-generator generate -g openapi -i root.yml -o generated
+$ openapi-generator-cli generate -g openapi -i root.yml -o generated
 # generate openapi.yaml
-$ openapi-generator generate -g openapi-yaml -i root.yml -o generated
+$ openapi-generator-cli generate -g openapi-yaml -i root.yml -o generated
 ```
