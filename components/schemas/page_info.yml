@@ -4,7 +4,9 @@ required: [page, per_page]
 properties:
   page:
     type: integer
+    minimum: 0
     description: page number
   per_page:
     type: integer
+    minimum: 1
     description: number of items per page

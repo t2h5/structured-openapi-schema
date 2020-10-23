@@ -4,6 +4,7 @@ required: [id, email, name]
 properties:
   id:
     type: integer
+    minimum: 1
     description: ID
   email:
     type: string
