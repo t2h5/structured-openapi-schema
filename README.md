@@ -14,7 +14,7 @@ https://swagger.io/docs/specification/using-ref/
 
 ## directory structure
 
-The directory structure is based on OpenAPI object.
+The directory structure based on OpenAPI object.
 
 https://swagger.io/specification/#oasObject
 
@@ -65,7 +65,7 @@ paths:
 
 ### generate merged schema
 
-Almost all of the editors or plugins cannot evaluate file reference using `$ref`. (as far as I know)
+Almost all the editors or plugins cannot evaluate file reference using `$ref`. (as far as I know)
 
 If you need OpenAPI schema as a single JSON (or YAML) file, you can merge structured files using [openapi-generator](https://github.com/OpenAPITools/openapi-generator
 ).
@@ -75,4 +75,12 @@ If you need OpenAPI schema as a single JSON (or YAML) file, you can merge struct
 $ openapi-generator-cli generate -g openapi -i root.yml -o generated
 # generate openapi.yaml
 $ openapi-generator-cli generate -g openapi-yaml -i root.yml -o generated
+```
+
+## mock
+
+Run mock server based on OpenAPI schema using Stoplight [Prism](https://github.com/stoplightio/prism).
+
+```shell
+$ prism mock ./generated/openapi.json
 ```
