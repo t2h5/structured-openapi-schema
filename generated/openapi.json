@@ -1,7 +1,8 @@
 {
   "openapi" : "3.0.2",
   "info" : {
-    "title" : "Example Project",
+    "description" : "description",
+    "title" : "Structured OpenAPI Schema",
     "version" : "1.0"
   },
   "servers" : [ {
@@ -14,9 +15,14 @@
       }
     }
   } ],
+  "tags" : [ {
+    "description" : "tag for user",
+    "name" : "user"
+  } ],
   "paths" : {
     "/users" : {
       "get" : {
+        "description" : "description",
         "operationId" : "usersGet",
         "parameters" : [ {
           "description" : "page number",
@@ -51,6 +57,7 @@
         "tags" : [ "user" ]
       },
       "post" : {
+        "description" : "description",
         "operationId" : "usersPost",
         "requestBody" : {
           "content" : {
@@ -81,6 +88,7 @@
     },
     "/users/{user_id}" : {
       "delete" : {
+        "description" : "description",
         "operationId" : "usersIdDelete",
         "parameters" : [ {
           "description" : "user id",
@@ -100,6 +108,7 @@
         "tags" : [ "user" ]
       },
       "get" : {
+        "description" : "description",
         "operationId" : "usersIdGet",
         "parameters" : [ {
           "description" : "user id",
@@ -126,6 +135,7 @@
         "tags" : [ "user" ]
       },
       "patch" : {
+        "description" : "description",
         "operationId" : "usersIdPatch",
         "parameters" : [ {
           "description" : "user id",

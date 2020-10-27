@@ -1,4 +1,4 @@
-# Documentation for Example Project
+# Documentation for Structured OpenAPI Schema
 
 <a name="documentation-for-api-endpoints"></a>
 ## Documentation for API Endpoints
