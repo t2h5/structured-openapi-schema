@@ -5,12 +5,12 @@
   "scripts": {
     "check-yml": "prettier --check '**/*.yml'",
     "format-yml": "prettier --write '**/*.yml'",
-    "validate-root-schema": "spectral lint root.yml",
-    "validate-generated-schema": "spectral lint generated/openapi.json",
+    "lint-root-schema": "spectral lint -v root.yml",
+    "lint-generated-schema": "spectral lint -v generated/openapi.json",
     "run-generator": "openapi-generator-cli generate -g openapi -i root.yml -o generated",
     "markdown": "openapi-generator-cli generate -g markdown -i root.yml -o docs",
-    "validate": "npm-run-all -s validate-root-schema validate-generated-schema",
-    "generate": "npm-run-all -s run-generator markdown validate-generated-schema",
+    "lint": "npm-run-all -s lint-root-schema lint-generated-schema",
+    "generate": "npm-run-all -s run-generator markdown lint-generated-schema",
     "watch": "chokidar 'root.yml' '**/*.yml' -c 'yarn generate' --initial",
     "mock": "prism mock -d -p 13000 ./generated/openapi.json"
   },
