@@ -1,6 +1,7 @@
 get:
   operationId: usersIdGet
   summary: get user
+  description: description
   tags: [user]
   parameters:
     - in: path
@@ -10,7 +11,7 @@ get:
       schema:
         type: integer
   responses:
-    200:
+    '200':
       description: ok
       content:
         application/json:
@@ -19,6 +20,7 @@ get:
 patch:
   operationId: usersIdPatch
   summary: update user
+  description: description
   tags: [user]
   parameters:
     - in: path
@@ -35,7 +37,7 @@ patch:
         schema:
           $ref: ../components/schemas/user_input.yml
   responses:
-    200:
+    '200':
       description: ok
       content:
         application/json:
@@ -44,6 +46,7 @@ patch:
 delete:
   operationId: usersIdDelete
   summary: delete user
+  description: description
   tags: [user]
   parameters:
     - in: path
@@ -53,5 +56,5 @@ delete:
       schema:
         type: integer
   responses:
-    204:
+    '204':
       description: deleted

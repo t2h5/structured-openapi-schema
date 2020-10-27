@@ -17,6 +17,8 @@ Method | HTTP request | Description
 
 get user list
 
+    description
+
 ### Parameters
 
 Name | Type | Description  | Notes
@@ -43,6 +45,8 @@ No authorization required
 
 delete user
 
+    description
+
 ### Parameters
 
 Name | Type | Description  | Notes
@@ -67,6 +71,8 @@ No authorization required
 > user usersIdGet(userId)
 
 get user
+
+    description
 
 ### Parameters
 
@@ -93,6 +99,8 @@ No authorization required
 
 update user
 
+    description
+
 ### Parameters
 
 Name | Type | Description  | Notes
@@ -118,6 +126,8 @@ No authorization required
 > user usersPost(userInput)
 
 create new user
+
+    description
 
 ### Parameters
 

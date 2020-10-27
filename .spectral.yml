@@ -1,0 +1,4 @@
+extends: [[spectral:oas, recommended]]
+rules:
+  info-contact: off
+  oas3-valid-schema-example: off

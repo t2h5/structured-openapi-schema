@@ -1,12 +1,13 @@
 get:
   operationId: usersGet
   summary: get user list
+  description: description
   tags: [user]
   parameters:
     - $ref: ../components/parameters/page.yml
     - $ref: ../components/parameters/per_page.yml
   responses:
-    200:
+    '200':
       description: ok
       content:
         application/json:
@@ -15,6 +16,7 @@ get:
 post:
   operationId: usersPost
   summary: create new user
+  description: description
   tags: [user]
   requestBody:
     description: user information
@@ -24,7 +26,7 @@ post:
         schema:
           $ref: ../components/schemas/user_input.yml
   responses:
-    201:
+    '201':
       description: created
       content:
         application/json:
