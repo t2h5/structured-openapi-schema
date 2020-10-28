@@ -8,6 +8,7 @@
     "lint-root-schema": "spectral lint -v root.yml",
     "lint-generated-schema": "spectral lint -v generated/openapi.json",
     "run-generator": "openapi-generator-cli generate -g openapi -i root.yml -o generated",
+    "server-stub": "openapi-generator-cli generate -g nodejs-express-server -i root.yml -o server-stub",
     "markdown": "openapi-generator-cli generate -g markdown -i root.yml -o docs",
     "lint": "npm-run-all -s lint-root-schema lint-generated-schema",
     "generate": "npm-run-all -s run-generator markdown lint-generated-schema",
