@@ -1,0 +1,219 @@
+openapi: 3.0.2
+info:
+  description: description
+  title: Structured OpenAPI Schema
+  version: "1.0"
+servers:
+- description: Local API Server
+  url: http://localhost:0000/{api_version}
+  variables:
+    api_version:
+      default: v1
+      enum:
+      - v1
+tags:
+- description: tag for user
+  name: user
+paths:
+  /users:
+    get:
+      description: description
+      operationId: usersGet
+      parameters:
+      - description: page number
+        in: query
+        name: page
+        required: false
+        schema:
+          type: integer
+      - description: number of items per page
+        in: query
+        name: per_page
+        required: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user_list'
+          description: ok
+      summary: get user list
+      tags:
+      - user
+      x-eov-operation-handler: controllers/UserController
+    post:
+      description: description
+      operationId: usersPost
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user_input'
+        description: user information
+        required: true
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+          description: created
+      summary: create new user
+      tags:
+      - user
+      x-eov-operation-handler: controllers/UserController
+  /users/{user_id}:
+    delete:
+      description: description
+      operationId: usersIdDelete
+      parameters:
+      - description: user id
+        in: path
+        name: user_id
+        required: true
+        schema:
+          type: integer
+      responses:
+        "204":
+          description: deleted
+      summary: delete user
+      tags:
+      - user
+      x-eov-operation-handler: controllers/UserController
+    get:
+      description: description
+      operationId: usersIdGet
+      parameters:
+      - description: user id
+        in: path
+        name: user_id
+        required: true
+        schema:
+          type: integer
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+          description: ok
+      summary: get user
+      tags:
+      - user
+      x-eov-operation-handler: controllers/UserController
+    patch:
+      description: description
+      operationId: usersIdPatch
+      parameters:
+      - description: user id
+        in: path
+        name: user_id
+        required: true
+        schema:
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user_input'
+        description: user information
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+          description: ok
+      summary: update user
+      tags:
+      - user
+      x-eov-operation-handler: controllers/UserController
+components:
+  schemas:
+    user_list:
+      example:
+        data:
+        - name: name
+          id: 1
+          email: email
+        - name: name
+          id: 1
+          email: email
+        page_info:
+          per_page: 1
+          page: 0
+      properties:
+        data:
+          items:
+            $ref: '#/components/schemas/user'
+          type: array
+        page_info:
+          $ref: '#/components/schemas/page_info'
+      required:
+      - data
+      - page_info
+      type: object
+    user_input:
+      properties:
+        user:
+          $ref: '#/components/schemas/user_input_user'
+      required:
+      - user
+      type: object
+    user:
+      description: user
+      example:
+        name: name
+        id: 1
+        email: email
+      properties:
+        id:
+          description: ID
+          minimum: 1
+          type: integer
+        email:
+          description: email address
+          format: email
+          type: string
+        name:
+          description: name
+          type: string
+      required:
+      - email
+      - id
+      - name
+      type: object
+    page_info:
+      description: page information
+      example:
+        per_page: 1
+        page: 0
+      properties:
+        page:
+          description: page number
+          minimum: 0
+          type: integer
+        per_page:
+          description: number of items per page
+          minimum: 1
+          type: integer
+      required:
+      - page
+      - per_page
+      type: object
+    user_input_user:
+      description: user information
+      properties:
+        email:
+          description: email address
+          format: email
+          type: string
+        name:
+          description: name
+          type: string
+      required:
+      - email
+      - name
