@@ -9,8 +9,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - name: yarn install, generate
-      run: |
+    - run: |
         yarn install
-        yarn check-yml
-        yarn generate
+        yarn build
