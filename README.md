@@ -4,7 +4,7 @@ Example project for structured OpenAPI schema.
 
 ## overview
 
-This project includes OpenAPI schema, based on structured YAML files.
+This project includes OpenAPI schema, based on **structured** YAML files.
 
 https://swagger.io/specification/
 
@@ -77,7 +77,17 @@ $ openapi-generator-cli generate -g openapi -i root.yml -o generated
 $ openapi-generator-cli generate -g openapi-yaml -i root.yml -o generated
 ```
 
-## mock
+## tools
+
+### lint
+
+Lint OpenAPI schema using Stopligh [Spectral](https://github.com/stoplightio/spectral).
+
+```shell
+$ spectral lint ./generated/openapi.json
+```
+
+### mock
 
 Run mock server based on OpenAPI schema using Stoplight [Prism](https://github.com/stoplightio/prism).
 
