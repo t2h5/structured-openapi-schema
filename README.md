@@ -81,7 +81,7 @@ $ openapi-generator-cli generate -g openapi-yaml -i root.yml -o generated
 
 ### lint
 
-Lint OpenAPI schema using Stopligh [Spectral](https://github.com/stoplightio/spectral).
+Lint OpenAPI schema using Stoplight [Spectral](https://github.com/stoplightio/spectral).
 
 ```shell
 $ spectral lint ./generated/openapi.json
