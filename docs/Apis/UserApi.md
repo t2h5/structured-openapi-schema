@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 <a name="usersGet"></a>
 # **usersGet**
-> user_list usersGet(page, perPage)
+> user_list usersGet(page, per\_page)
 
 get user list
 
@@ -24,11 +24,11 @@ get user list
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **Integer**| page number | [optional] [default to null]
- **perPage** | **Integer**| number of items per page | [optional] [default to null]
+ **per\_page** | **Integer**| number of items per page | [optional] [default to null]
 
 ### Return type
 
-[**user_list**](..//Models/user_list.md)
+[**user_list**](../Models/user_list.md)
 
 ### Authorization
 
@@ -41,7 +41,7 @@ No authorization required
 
 <a name="usersIdDelete"></a>
 # **usersIdDelete**
-> usersIdDelete(userId)
+> usersIdDelete(user\_id)
 
 delete user
 
@@ -51,7 +51,7 @@ delete user
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userId** | **Integer**| user id | [default to null]
+ **user\_id** | **Integer**| user id | [default to null]
 
 ### Return type
 
@@ -68,7 +68,7 @@ No authorization required
 
 <a name="usersIdGet"></a>
 # **usersIdGet**
-> user usersIdGet(userId)
+> user usersIdGet(user\_id)
 
 get user
 
@@ -78,11 +78,11 @@ get user
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userId** | **Integer**| user id | [default to null]
+ **user\_id** | **Integer**| user id | [default to null]
 
 ### Return type
 
-[**user**](..//Models/user.md)
+[**user**](../Models/user.md)
 
 ### Authorization
 
@@ -95,7 +95,7 @@ No authorization required
 
 <a name="usersIdPatch"></a>
 # **usersIdPatch**
-> user usersIdPatch(userId, userInput)
+> user usersIdPatch(user\_id, UserInput)
 
 update user
 
@@ -105,12 +105,12 @@ update user
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userId** | **Integer**| user id | [default to null]
- **userInput** | [**UserInput**](..//Models/UserInput.md)| user information |
+ **user\_id** | **Integer**| user id | [default to null]
+ **UserInput** | [**UserInput**](../Models/UserInput.md)| user information |
 
 ### Return type
 
-[**user**](..//Models/user.md)
+[**user**](../Models/user.md)
 
 ### Authorization
 
@@ -123,7 +123,7 @@ No authorization required
 
 <a name="usersPost"></a>
 # **usersPost**
-> user usersPost(userInput)
+> user usersPost(UserInput)
 
 create new user
 
@@ -133,11 +133,11 @@ create new user
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userInput** | [**UserInput**](..//Models/UserInput.md)| user information |
+ **UserInput** | [**UserInput**](../Models/UserInput.md)| user information |
 
 ### Return type
 
-[**user**](..//Models/user.md)
+[**user**](../Models/user.md)
 
 ### Authorization
 
