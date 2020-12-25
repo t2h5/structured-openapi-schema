@@ -16,20 +16,20 @@
   resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.1.3.tgz#9df03bbd7c696a5c58885c34aa06da41c8543796"
   integrity sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==
 
-"@nestjs/common@7.6.1":
-  version "7.6.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-7.6.1.tgz#d62a3207c6db031a44f0fdc55e207586149d9fd1"
-  integrity sha512-Tq95a6a0kP3rxtV49xal168QNx49JPfO3s6SZ01sCJMWJVtGy8KCaC8YHAx7+KYamH43K6bd9Qv0K9R8lZxEtg==
+"@nestjs/common@7.6.4":
+  version "7.6.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-7.6.4.tgz#eabb92cc7f910a0d0d008b62eab57b7e93cef1dc"
+  integrity sha512-hpMqn26ec6sjmWmXoiOksWi3wzAn6laF1qNhb3PSikRpaafjzba1m+/vABdAqZ8JOrcrN6gQs5IjtwyzhTurzQ==
   dependencies:
     axios "0.21.0"
     iterare "1.2.1"
     tslib "2.0.3"
     uuid "8.3.2"
 
-"@nestjs/core@7.6.1":
-  version "7.6.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-7.6.1.tgz#3b04ac45dd158f9373650d43894cbd2ae016a694"
-  integrity sha512-Rd0hqV2TsseMfZFTZBQH6zlNe5Hif5kVe5KNOnXADghKVaSLOO9SQ+VVPqXzeRYvC+xvJxnSdDyeTIriVsgMlg==
+"@nestjs/core@7.6.4":
+  version "7.6.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-7.6.4.tgz#90f9f1aec7bc5abc3b3eb477277c3bd8bdd25d3e"
+  integrity sha512-lKLlrWKf5Uo9wLH7vyrOvLYnhlfva7jlXsbevaQWKGQxp0N9F+eScvpWXv3xB2BTrFKmgBz2Z7h5KS/DWVteng==
   dependencies:
     "@nuxtjs/opencollective" "0.3.2"
     fast-safe-stringify "2.0.7"
@@ -76,13 +76,13 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@openapitools/openapi-generator-cli@^2.1.10":
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/@openapitools/openapi-generator-cli/-/openapi-generator-cli-2.1.10.tgz#a1e768477949172e5c10272a3bdfbbd8a14adcde"
-  integrity sha512-gVfieuXDzGxRlaANHd3HxFw2bYx8wx95ASVittt6IotUWyiU9RT7qxZL517vl0fDZk8qkt0n/4bglhHgAxLEzw==
+"@openapitools/openapi-generator-cli@^2.1.15":
+  version "2.1.15"
+  resolved "https://registry.yarnpkg.com/@openapitools/openapi-generator-cli/-/openapi-generator-cli-2.1.15.tgz#6bd103f02678f658fca30b62adf1cf8b53ca71ad"
+  integrity sha512-aWG3ByL2Aia2cSu8f/GeeMlVUWRXJNksVoTUJfCzLX5IUOx9yCeK5XaiijjHceeJ6qqP6/afHauVZh24nHSIhQ==
   dependencies:
-    "@nestjs/common" "7.6.1"
-    "@nestjs/core" "7.6.1"
+    "@nestjs/common" "7.6.4"
+    "@nestjs/core" "7.6.4"
     "@nuxtjs/opencollective" "0.3.2"
     chalk "4.1.0"
     commander "6.2.1"
@@ -325,9 +325,9 @@
   integrity sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
 
 "@types/node@*":
-  version "14.14.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.14.tgz#f7fd5f3cc8521301119f63910f0fb965c7d761ae"
-  integrity sha512-UHnOPWVWV1z+VV8k6L1HhG7UbGBgIdghqF3l9Ny9ApPghbjICXkUJSd/b9gOgQfjM1r+37cipdw/HJ3F6ICEnQ==
+  version "14.14.16"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.16.tgz#3cc351f8d48101deadfed4c9e4f116048d437b4b"
+  integrity sha512-naXYePhweTi+BMv11TgioE2/FXU4fSl29HAH1ffxVciNsH3rYXjNP2yM8wqmSm7jS20gM8TIklKiTen+1iVncw==
 
 "@types/swagger-schema-official@~2.0.21":
   version "2.0.21"
@@ -1164,9 +1164,9 @@ fast-xml-parser@^3.12.20:
   integrity sha512-lEvThd1Xq+CCylf1n+05bUZCDZjTufaaaqpxM3JZ+4iDqtlG+d/oKgtMmg9GEMOuzBgUoalIzFOaClht9YiGJQ==
 
 fastq@^1.6.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.9.0.tgz#e16a72f338eaca48e91b5c23593bcc2ef66b7947"
-  integrity sha512-i7FVWL8HhVY+CTkwFxkN2mk3h+787ixS5S63eb78diVRc1MCssarHq3W5cj0av7YDSwmaV928RNag+U1etRQ7w==
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.10.0.tgz#74dbefccade964932cdf500473ef302719c652bb"
+  integrity sha512-NL2Qc5L3iQEsyYzweq7qfgy5OtXCmGzGvhElGEd/SoFWEMOEczNh5s5ocaF01HDetxz+p8ecjNPA6cZxxIHmzA==
   dependencies:
     reusify "^1.0.4"
 
@@ -1301,9 +1301,9 @@ get-caller-file@^2.0.1, get-caller-file@^2.0.5:
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
 get-intrinsic@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.0.1.tgz#94a9768fcbdd0595a1c9273aacf4c89d075631be"
-  integrity sha512-ZnWP+AmS1VUaLgTRy47+zKtjTxz+0xMpx3I52i+aalBK1QP19ggLF3Db89KJX7kjfOfP2eoa01qc++GwPgufPg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.0.2.tgz#6820da226e50b24894e08859469dc68361545d49"
+  integrity sha512-aeX0vrFm21ILl3+JpFFRNe9aUvp6VFZb2/CTbgLb8j75kOhvoNYjt9d8KA/tJG4gSo8nzEDedRl0h7vDmBYRVg==
   dependencies:
     function-bind "^1.1.1"
     has "^1.0.3"
@@ -2947,9 +2947,9 @@ uri-template-lite@^20.5.0:
   integrity sha512-RL6Pnz0DO4XH9WZhZTX6u0SP6afNM9z+u7lXYHO+RkVGzpNcgKc1Y2tcAX/KVIEi2ctfzf+iLcofkwKoYiGH4Q==
 
 urijs@^1.19.1, urijs@^1.19.2, urijs@~1.19.2:
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.2.tgz#f9be09f00c4c5134b7cb3cf475c1dd394526265a"
-  integrity sha512-s/UIq9ap4JPZ7H1EB5ULo/aOUbWqfDi7FKzMC2Nz+0Si8GiT1rIEaprt8hy3Vy2Ex2aJPpOQv4P4DuOZ+K1c6w==
+  version "1.19.4"
+  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.4.tgz#3953d7dacd801336c17921ee8c5518b150cbf965"
+  integrity sha512-2YF/wdFu02Gsly/wyx+S/f5w/oCF0ihVSgK/Sn8fcY/ZYMYtqxgi03Vi3V7HqyQP8mj8xHMuNFTBIPufmPRdoA==
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
