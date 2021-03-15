@@ -1,3 +1,4 @@
+.openapi-generator-ignore
 Apis/UserApi.md
 Models/PageInfo.md
 Models/User.md
