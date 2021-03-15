@@ -10,9 +10,8 @@
     "lint": "npm-run-all -s lint:*",
     "generate:schema": "openapi-generator-cli generate -g openapi -i root.yml -o generated",
     "generate:markdown": "openapi-generator-cli generate -g markdown -i root.yml -o docs",
-    "generate:server-stub": "openapi-generator-cli generate -g nodejs-express-server -i root.yml -o server-stub",
     "generate": "npm-run-all -s generate:*",
-    "clean": "rimraf generated && rimraf docs && rimraf server-stub",
+    "clean": "rimraf generated && rimraf docs",
     "build": "npm-run-all -s clean generate lint",
     "watch": "chokidar 'root.yml' '**/*.yml' -c 'yarn generate:schema' --initial",
     "mock": "prism mock -d -p 13000 ./generated/openapi.json"
