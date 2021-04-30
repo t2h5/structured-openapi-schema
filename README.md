@@ -1,6 +1,6 @@
 # structured-openapi-schema
 
-Example project for structured OpenAPI schema.
+Sample project for structured OpenAPI schema.
 
 ## overview
 
