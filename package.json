@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.3.5",
-    "@stoplight/prism-cli": "^4.2.5",
+    "@stoplight/prism-cli": "^4.2.6",
     "@stoplight/spectral": "^5.9.1",
     "chokidar-cli": "^2.1.0",
     "npm-run-all": "^4.1.5",
