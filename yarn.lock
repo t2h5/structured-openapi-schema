@@ -81,16 +81,16 @@
     consola "^2.15.0"
     node-fetch "^2.6.1"
 
-"@openapitools/openapi-generator-cli@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@openapitools/openapi-generator-cli/-/openapi-generator-cli-2.4.1.tgz#a47ce2b93c268f6b55b33ee3d8b6bad1bcec8917"
-  integrity sha512-3AX0WyhEtFM/ZWImJ2u5SUWV0aCgDNde5P1sNso2oW1IbF7ylM86T9aL8RK560hymeiRQVuSpYtxLSB/N6vpOg==
+"@openapitools/openapi-generator-cli@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@openapitools/openapi-generator-cli/-/openapi-generator-cli-2.4.2.tgz#88eaf1d091e00318d24fbb109251e912018e85a4"
+  integrity sha512-9BgGoIDzFK3QPiVbkMa6RJOjo+0hphILvhBBbFXZKvoCFyYlnBKlAAnpyjpySJL2YHkzlZX8Yu5O8lYkh+waAw==
   dependencies:
     "@nestjs/common" "7.6.18"
     "@nestjs/core" "7.6.18"
     "@nuxtjs/opencollective" "0.3.2"
     chalk "4.1.2"
-    commander "8.1.0"
+    commander "8.2.0"
     compare-versions "3.6.0"
     concurrently "6.2.1"
     console.table "0.10.0"
@@ -795,10 +795,10 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-8.1.0.tgz#db36e3e66edf24ff591d639862c6ab2c52664362"
-  integrity sha512-mf45ldcuHSYShkplHHGKWb4TrmwQadxOn7v4WuhDJy0ZVoY5JFajaRDKD0PNe5qXzBX0rhovjTnP6Kz9LETcuA==
+commander@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-8.2.0.tgz#37fe2bde301d87d47a53adeff8b5915db1381ca8"
+  integrity sha512-LLKxDvHeL91/8MIyTAD5BFMNtoIwztGPMiM/7Bl8rIPmHCZXRxmSWr91h57dpOpnQ6jIUqEWdXE/uBYMfiVZDA==
 
 compare-versions@3.6.0:
   version "3.6.0"
