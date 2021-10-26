@@ -1,9 +1,8 @@
-# user
+# user_input_user
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | **Integer** | ID | [default to null]
 **email** | **String** | email address | [default to null]
 **name** | **String** | name | [default to null]
 

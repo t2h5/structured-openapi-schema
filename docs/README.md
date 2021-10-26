@@ -17,11 +17,11 @@ Class | Method | HTTP request | Description
 <a name="documentation-for-models"></a>
 ## Documentation for Models
 
- - [PageInfo](./Models/PageInfo.md)
- - [User](./Models/User.md)
- - [UserInput](./Models/UserInput.md)
- - [UserInputUser](./Models/UserInputUser.md)
- - [UserList](./Models/UserList.md)
+ - [page_info](./Models/page_info.md)
+ - [user](./Models/user.md)
+ - [user_input](./Models/user_input.md)
+ - [user_input_user](./Models/user_input_user.md)
+ - [user_list](./Models/user_list.md)
 
 
 <a name="documentation-for-authorization"></a>

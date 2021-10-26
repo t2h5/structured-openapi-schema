@@ -1,8 +1,7 @@
-.openapi-generator-ignore
 Apis/UserApi.md
-Models/PageInfo.md
-Models/User.md
-Models/UserInput.md
-Models/UserInputUser.md
-Models/UserList.md
+Models/page_info.md
+Models/user.md
+Models/user_input.md
+Models/user_input_user.md
+Models/user_list.md
 README.md

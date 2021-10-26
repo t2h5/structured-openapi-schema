@@ -95,7 +95,7 @@ No authorization required
 
 <a name="usersIdPatch"></a>
 # **usersIdPatch**
-> user usersIdPatch(user\_id, UserInput)
+> user usersIdPatch(user\_id, user\_input)
 
 update user
 
@@ -106,7 +106,7 @@ update user
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **user\_id** | **Integer**| user id | [default to null]
- **UserInput** | [**UserInput**](../Models/UserInput.md)| user information |
+ **user\_input** | [**user_input**](../Models/user_input.md)| user information |
 
 ### Return type
 
@@ -123,7 +123,7 @@ No authorization required
 
 <a name="usersPost"></a>
 # **usersPost**
-> user usersPost(UserInput)
+> user usersPost(user\_input)
 
 create new user
 
@@ -133,7 +133,7 @@ create new user
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **UserInput** | [**UserInput**](../Models/UserInput.md)| user information |
+ **user\_input** | [**user_input**](../Models/user_input.md)| user information |
 
 ### Return type
 
