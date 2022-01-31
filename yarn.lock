@@ -510,10 +510,10 @@
     type-is "^1.6.18"
     uri-template-lite "^20.5.0"
 
-"@stoplight/spectral-cli@^6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/spectral-cli/-/spectral-cli-6.1.1.tgz#ebc30c51a82868e1ee96fe0a6ed19692e9c45df0"
-  integrity sha512-A7s/RUcsZispb6e7PzEfmun6PYeYj74LyeGVgi3FxS+IAA4Wt9ILyeWIdRQpUIAldUX607GYqTCyNQ9PSj+e4A==
+"@stoplight/spectral-cli@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/spectral-cli/-/spectral-cli-6.2.0.tgz#69d99333279249d0ab6b363456bc8db4ef5111fa"
+  integrity sha512-VGyrOr0fYaYzxjkkwrWHMdY8WgKUnhzPrr51FlQH27KA6Xhn9c1ee4MTPedfVVptMxGIODVru92a5O3PJBKSOw==
   dependencies:
     "@rollup/plugin-commonjs" "^20.0.0"
     "@stoplight/json" "3.17.0"
