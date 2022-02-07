@@ -370,6 +370,15 @@
     tslib "^2.3.1"
     urijs "^1.19.6"
 
+"@stoplight/json-schema-merge-allof@0.7.8":
+  version "0.7.8"
+  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-merge-allof/-/json-schema-merge-allof-0.7.8.tgz#7efe5e0086dff433eb011f617e82f7295c3de061"
+  integrity sha512-JTDt6GYpCWQSb7+UW1P91IAp/pcLWis0mmEzWVFcLsrNgtUYK7JLtYYz0ZPSR4QVL0fJ0YQejM+MPq5iNDFO4g==
+  dependencies:
+    compute-lcm "^1.1.0"
+    json-schema-compare "^0.2.2"
+    lodash "^4.17.4"
+
 "@stoplight/json-schema-ref-parser@9.2.1":
   version "9.2.1"
   resolved "https://registry.yarnpkg.com/@stoplight/json-schema-ref-parser/-/json-schema-ref-parser-9.2.1.tgz#48a55c61e7c518e9a7332c424cd53a41b405e9af"
@@ -430,17 +439,17 @@
   resolved "https://registry.yarnpkg.com/@stoplight/path/-/path-1.3.2.tgz#96e591496b72fde0f0cdae01a61d64f065bd9ede"
   integrity sha512-lyIc6JUlUA8Ve5ELywPC8I2Sdnh1zc1zmbYgVarhXIp9YeAB0ReeqmGEOWNtlHkbP2DAA1AL65Wfn2ncjK/jtQ==
 
-"@stoplight/prism-cli@^4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-cli/-/prism-cli-4.6.1.tgz#5d23ec9b5797305872e783cb09c22fd30bd35534"
-  integrity sha512-uHRkci2fpwdU1XTQFZcRWV3VB/j7Z9mVKyD77fXLtkYVCFE6ZHBk3NQRGTtodzVeuwI+zKSWZCprbD7BNUEjJQ==
+"@stoplight/prism-cli@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-cli/-/prism-cli-4.7.0.tgz#0c06dbcb1951dded03a0af1832a5ad33225dab11"
+  integrity sha512-qP/j1iQtSaEwNopiIqlHCu27negrXVorjN4UCY0VWASGKFSJc4v4BZCCsHfFZZ7O60c55zUlJF8J98I9KQqP3g==
   dependencies:
     "@stoplight/http-spec" "^4.2.0"
     "@stoplight/json" "^3.17.0"
     "@stoplight/json-schema-ref-parser" "9.2.1"
-    "@stoplight/prism-core" "^4.6.1"
-    "@stoplight/prism-http" "^4.6.1"
-    "@stoplight/prism-http-server" "^4.6.1"
+    "@stoplight/prism-core" "^4.7.0"
+    "@stoplight/prism-http" "^4.7.0"
+    "@stoplight/prism-http-server" "^4.7.0"
     "@stoplight/types" "^12.2.0"
     chalk "^4.1.2"
     chokidar "^3.5.2"
@@ -456,23 +465,23 @@
     urijs "^1.19.7"
     yargs "^16.2.0"
 
-"@stoplight/prism-core@^4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-core/-/prism-core-4.6.1.tgz#099648c8e7d312cb112403e3c5c19002935eaa41"
-  integrity sha512-Gdon0Ix9Er9HE5/r+bJJZFQwMGKHl7HCwHrjFmSkCtqKYRQ6xAHJ93qllzdbXH8zRg++ZZ5yzbwtW5Xi59xzvQ==
+"@stoplight/prism-core@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-core/-/prism-core-4.7.0.tgz#f79bfad2b7b70b50874bb16faf9ab78d0930d71b"
+  integrity sha512-rVLKGlHc1zfTsr8k/sb4UUnR8h7rdTgafjFQZkPtzvp49/H8lq+w+dDQmZUCfTgEKanZCDcI1jMiCKvR3YvmBw==
   dependencies:
     fp-ts "^2.11.5"
     lodash "^4.17.21"
     pino "^6.13.3"
     tslib "^2.3.1"
 
-"@stoplight/prism-http-server@^4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-http-server/-/prism-http-server-4.6.1.tgz#d2838f664bd63493bc839ea1d6db32b003509633"
-  integrity sha512-/RWiQ2LW4TNRL3gMLZPInpVdxHwDBYchnKk+HX/fKEY77b9a6QnrVFBEhq8YnXPZzwi9dUltyzVeL4DkVVZhaQ==
+"@stoplight/prism-http-server@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-http-server/-/prism-http-server-4.7.0.tgz#5807d674c480d3776fbc100f605d0d18eb158529"
+  integrity sha512-1Ju8O2xYqgttZ4tOHIkDIPKK9tJuvvcjESbY5B0liKXeU6GDXNBq1j/Um1l0QA+lnMsavQirGbLDdBLaTkiy7Q==
   dependencies:
-    "@stoplight/prism-core" "^4.6.1"
-    "@stoplight/prism-http" "^4.6.1"
+    "@stoplight/prism-core" "^4.7.0"
+    "@stoplight/prism-http" "^4.7.0"
     "@stoplight/types" "^12.2.0"
     fast-xml-parser "^3.20.3"
     fp-ts "^2.11.5"
@@ -484,14 +493,15 @@
     tslib "^2.3.1"
     type-is "^1.6.18"
 
-"@stoplight/prism-http@^4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-http/-/prism-http-4.6.1.tgz#3990eddf79d0af6e1162ca6592d8e0fc13287287"
-  integrity sha512-HmL0pQBDkqSHe12W+S+kJ/WC/8hL7vtaLI0/v/7ThTsexfg1n/3nQ891OQAoozbIT7AbxUmUqCa0F8qYMnPd4g==
+"@stoplight/prism-http@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-http/-/prism-http-4.7.0.tgz#5ec15a2e3d1d163ba9d1fbfba38664f50862540e"
+  integrity sha512-4zz0vt/u5LiqVRy8lbTzeBeB4oO3dQYsVZxmETZJpzLi6GWC/nO9r3JyrjsUmv9UEiQ7scMoalB6cHZL6ukBaw==
   dependencies:
     "@stoplight/json" "^3.13.7"
+    "@stoplight/json-schema-merge-allof" "0.7.8"
     "@stoplight/json-schema-sampler" "0.2.2"
-    "@stoplight/prism-core" "^4.6.1"
+    "@stoplight/prism-core" "^4.7.0"
     "@stoplight/types" "^12.2.0"
     "@stoplight/yaml" "^4.2.2"
     abstract-logging "^2.0.1"
@@ -1219,6 +1229,25 @@ compare-versions@3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/compare-versions/-/compare-versions-3.6.0.tgz#1a5689913685e5a87637b8d3ffca75514ec41d62"
   integrity sha512-W6Af2Iw1z4CB7q4uU4hv646dW9GQuBM+YpC0UvUCWSD8w90SJjp+ujJuXaEMtAXBtSqGfMPuFOVn4/+FlaqfBA==
+
+compute-gcd@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/compute-gcd/-/compute-gcd-1.2.1.tgz#34d639f3825625e1357ce81f0e456a6249d8c77f"
+  integrity sha512-TwMbxBNz0l71+8Sc4czv13h4kEqnchV9igQZBi6QUaz09dnz13juGnnaWWJTRsP3brxOoxeB4SA2WELLw1hCtg==
+  dependencies:
+    validate.io-array "^1.0.3"
+    validate.io-function "^1.0.2"
+    validate.io-integer-array "^1.0.0"
+
+compute-lcm@^1.1.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/compute-lcm/-/compute-lcm-1.1.2.tgz#9107c66b9dca28cefb22b4ab4545caac4034af23"
+  integrity sha512-OFNPdQAXnQhDSKioX8/XYT6sdUlXwpeMjfd6ApxMJfyZ4GxmLR1xvMERctlYhlHwIiz6CSpBc2+qYKjHGZw4TQ==
+  dependencies:
+    compute-gcd "^1.2.1"
+    validate.io-array "^1.0.3"
+    validate.io-function "^1.0.2"
+    validate.io-integer-array "^1.0.0"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -2401,6 +2430,13 @@ json-promise@^1.1.8:
   dependencies:
     bluebird "*"
 
+json-schema-compare@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/json-schema-compare/-/json-schema-compare-0.2.2.tgz#dd601508335a90c7f4cfadb6b2e397225c908e56"
+  integrity sha512-c4WYmDKyJXhs7WWvAWm3uIYnfyWFoIp+JEoX34rctVvEkMYCPGhXtvmFFXiffBbxfZsvQ0RNnV5H7GvDF5HCqQ==
+  dependencies:
+    lodash "^4.17.4"
+
 json-schema-faker@0.5.0-rcv.40:
   version "0.5.0-rcv.40"
   resolved "https://registry.yarnpkg.com/json-schema-faker/-/json-schema-faker-0.5.0-rcv.40.tgz#71d4f770368d6832bb66b044a504a9ecc2604651"
@@ -2618,7 +2654,7 @@ lodash.topath@^4.5.2:
   resolved "https://registry.yarnpkg.com/lodash.topath/-/lodash.topath-4.5.2.tgz#3616351f3bba61994a0931989660bd03254fd009"
   integrity sha1-NhY1Hzu6YZlKCTGYlmC9AyVP0Ak=
 
-lodash@4.17.21, lodash@^4.17.15, lodash@^4.17.21, lodash@~4.17.21:
+lodash@4.17.21, lodash@^4.17.15, lodash@^4.17.21, lodash@^4.17.4, lodash@~4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -3999,6 +4035,36 @@ validate-npm-package-name@3.0.0:
   integrity sha1-X6kS2B630MdK/BQN5zF/DKffQ34=
   dependencies:
     builtins "^1.0.3"
+
+validate.io-array@^1.0.3:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/validate.io-array/-/validate.io-array-1.0.6.tgz#5b5a2cafd8f8b85abb2f886ba153f2d93a27774d"
+  integrity sha1-W1osr9j4uFq7L4hroVPy2Tond00=
+
+validate.io-function@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/validate.io-function/-/validate.io-function-1.0.2.tgz#343a19802ed3b1968269c780e558e93411c0bad7"
+  integrity sha1-NDoZgC7TsZaCaceA5VjpNBHAutc=
+
+validate.io-integer-array@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/validate.io-integer-array/-/validate.io-integer-array-1.0.0.tgz#2cabde033293a6bcbe063feafe91eaf46b13a089"
+  integrity sha1-LKveAzKTpry+Bj/q/pHq9GsToIk=
+  dependencies:
+    validate.io-array "^1.0.3"
+    validate.io-integer "^1.0.4"
+
+validate.io-integer@^1.0.4:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/validate.io-integer/-/validate.io-integer-1.0.5.tgz#168496480b95be2247ec443f2233de4f89878068"
+  integrity sha1-FoSWSAuVviJH7EQ/IjPeT4mHgGg=
+  dependencies:
+    validate.io-number "^1.0.3"
+
+validate.io-number@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/validate.io-number/-/validate.io-number-1.0.3.tgz#f63ffeda248bf28a67a8d48e0e3b461a1665baf8"
+  integrity sha1-9j/+2iSL8opnqNSODjtGGhZluvg=
 
 verror@1.10.0:
   version "1.10.0"
