@@ -12,6 +12,11 @@
   resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-6.0.0.tgz#b613ebf5f5ebb2ab987afb567d8b7fe860199c13"
   integrity sha512-10zLCKhp3YEmBuko71ivcMoIZcCLXgQVck6aNswX+AWwaek/L8S3yz9i8m3tHigRkcF6F2vI+qtdtyySHK+bGA==
 
+"@faker-js/faker@^6.0.0":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-6.3.1.tgz#1ae963dd40405450a2945408cba553e1afa3e0fb"
+  integrity sha512-8YXBE2ZcU/pImVOHX7MWrSR/X5up7t6rPWZlk34RwZEcdr3ua6X+32pSd6XuOQRN+vbuvYNfA6iey8NbrjuMFQ==
+
 "@jsdevtools/ono@^7.1.3":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.1.3.tgz#9df03bbd7c696a5c58885c34aa06da41c8543796"
@@ -280,17 +285,17 @@
   resolved "https://registry.yarnpkg.com/@stoplight/path/-/path-1.3.2.tgz#96e591496b72fde0f0cdae01a61d64f065bd9ede"
   integrity sha512-lyIc6JUlUA8Ve5ELywPC8I2Sdnh1zc1zmbYgVarhXIp9YeAB0ReeqmGEOWNtlHkbP2DAA1AL65Wfn2ncjK/jtQ==
 
-"@stoplight/prism-cli@^4.9.2":
-  version "4.9.2"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-cli/-/prism-cli-4.9.2.tgz#c7f6321f5db546556a91af4067359b994b007e13"
-  integrity sha512-JF0UZL29YDonFRyjUDJg24Lba6doDpo+cQlJ0Tye3dCGtDB8lxhweCi2Rxz1/DUWD6je2L0Dpg91xhbzt5kEKQ==
+"@stoplight/prism-cli@^4.9.3":
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-cli/-/prism-cli-4.9.3.tgz#2cf1b29dbd8db451cfc6e7c6f0361f3e09256233"
+  integrity sha512-z6fTLZksPYLG3d4Ug3JtgTIXfXSWSW3stqWLyDdpgqYcXa+6twGVBqHhYMoeNbBdCI1sLG/C5RnQA3Yu1Ri3bg==
   dependencies:
     "@stoplight/http-spec" "^5.1.1"
     "@stoplight/json" "^3.18.1"
     "@stoplight/json-schema-ref-parser" "9.2.1"
-    "@stoplight/prism-core" "^4.9.2"
-    "@stoplight/prism-http" "^4.9.2"
-    "@stoplight/prism-http-server" "^4.9.2"
+    "@stoplight/prism-core" "^4.9.3"
+    "@stoplight/prism-http" "^4.9.3"
+    "@stoplight/prism-http-server" "^4.9.3"
     "@stoplight/types" "^13.0.0"
     chalk "^4.1.2"
     chokidar "^3.5.2"
@@ -306,23 +311,23 @@
     urijs "^1.19.7"
     yargs "^16.2.0"
 
-"@stoplight/prism-core@^4.9.2":
-  version "4.9.2"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-core/-/prism-core-4.9.2.tgz#3b9b5da2b03bca0f866ab7c9640ff378fdad803d"
-  integrity sha512-C4PIqqez7WcHSIumDTvSo9UJaacEjxGm2cbFZBai1DPwYubHCtqy0f5xNiRQYI/5QQfuVurdM2qIyVHQTRLivQ==
+"@stoplight/prism-core@^4.9.3":
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-core/-/prism-core-4.9.3.tgz#b47172fc7a976b4135aa8742595b4494d7b607b2"
+  integrity sha512-ld4tbFE/nVjxQGmMT9TqgK5dsERTjlRgJZ8pvLeRe2ne7Gg6wa6UyxLiRhPYKa6aD1GOXd8PHu8mpJROI3MmUQ==
   dependencies:
     fp-ts "^2.11.5"
     lodash "^4.17.21"
     pino "^6.13.3"
     tslib "^2.3.1"
 
-"@stoplight/prism-http-server@^4.9.2":
-  version "4.9.2"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-http-server/-/prism-http-server-4.9.2.tgz#7abe949f2712a93839bbce5d59235f5fa8cf5145"
-  integrity sha512-OCk/eJPZwTPxIev3gB3TlsC/WEP22wti8kHKKchS847NiFSuWU5x5JcdsFHECtTdUoblTQwepohNFvHts1vCVA==
+"@stoplight/prism-http-server@^4.9.3":
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-http-server/-/prism-http-server-4.9.3.tgz#ff59d5bfb1811b09e43ff78c844880de7f1f8ed8"
+  integrity sha512-d/OPapKQGvB+40FXU93oz/KRkflNRh5LwITV0a6BQU6hSsrlXdBwD+CfF7y1ecrA4t80WeyBu+S7pphDA3CNyQ==
   dependencies:
-    "@stoplight/prism-core" "^4.9.2"
-    "@stoplight/prism-http" "^4.9.2"
+    "@stoplight/prism-core" "^4.9.3"
+    "@stoplight/prism-http" "^4.9.3"
     "@stoplight/types" "^13.0.0"
     fast-xml-parser "^3.20.3"
     fp-ts "^2.11.5"
@@ -334,15 +339,16 @@
     tslib "^2.3.1"
     type-is "^1.6.18"
 
-"@stoplight/prism-http@^4.9.2":
-  version "4.9.2"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-http/-/prism-http-4.9.2.tgz#e1d52ab9458ae595a5d9f3416eee2998cc53a54e"
-  integrity sha512-Bje7P73M4W/d/JKupPOPMQc8dXMzExHeejGE3nh/6PKv7mC4Xvsjw+BepQCQoSXNU7+mK3X9WTzXrJyn7aH6og==
+"@stoplight/prism-http@^4.9.3":
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-http/-/prism-http-4.9.3.tgz#31cf0768670d898187714c23f63365f8a190ec48"
+  integrity sha512-JZiCG5/YNxcOzJhUc3TKXVr32auRN0g17U2Hr/LiyvDxidJ2EDK8/ZH5nn5228UXWVcSVn9wAPWvGEsGa0NR3Q==
   dependencies:
+    "@faker-js/faker" "^6.0.0"
     "@stoplight/json" "^3.18.1"
     "@stoplight/json-schema-merge-allof" "0.7.8"
     "@stoplight/json-schema-sampler" "0.2.2"
-    "@stoplight/prism-core" "^4.9.2"
+    "@stoplight/prism-core" "^4.9.3"
     "@stoplight/types" "^13.0.0"
     "@stoplight/yaml" "^4.2.3"
     abstract-logging "^2.0.1"
@@ -351,7 +357,6 @@
     ajv-formats "^2.1.1"
     caseless "^0.12.0"
     content-type "^1.0.4"
-    faker "^5.5.3"
     fp-ts "^2.11.5"
     http-proxy-agent "^5.0.0"
     https-proxy-agent "^5.0.0"
@@ -1361,11 +1366,6 @@ extsprintf@^1.2.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.1.tgz#8d172c064867f235c0c84a596806d279bf4bcc07"
   integrity sha512-Wrk35e8ydCKDj/ArClo1VrPVmN8zph5V4AtHwIuHhvMXsKf73UT3BOD+azBIW+3wOJ4FhEH7zyaJCFvChjYvMA==
-
-faker@^5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/faker/-/faker-5.5.3.tgz#c57974ee484431b25205c2c8dc09fda861e51e0e"
-  integrity sha512-wLTv2a28wjUyWkbnX7u/ABZBkUkIF2fCd73V6P2oFqEGEktDfzWx4UxrSqtPRw0xPRAcjeAOIiJWqZm3pP4u3g==
 
 fast-deep-equal@^3.1.1:
   version "3.1.3"
