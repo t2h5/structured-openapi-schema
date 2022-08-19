@@ -2,13 +2,13 @@
 
 All URIs are relative to *http://localhost:0000/v1*
 
-Method | HTTP request | Description
-------------- | ------------- | -------------
-[**usersGet**](UserApi.md#usersGet) | **GET** /users | get user list
-[**usersIdDelete**](UserApi.md#usersIdDelete) | **DELETE** /users/{user_id} | delete user
-[**usersIdGet**](UserApi.md#usersIdGet) | **GET** /users/{user_id} | get user
-[**usersIdPatch**](UserApi.md#usersIdPatch) | **PATCH** /users/{user_id} | update user
-[**usersPost**](UserApi.md#usersPost) | **POST** /users | create new user
+| Method | HTTP request | Description |
+|------------- | ------------- | -------------|
+| [**usersGet**](UserApi.md#usersGet) | **GET** /users | get user list |
+| [**usersIdDelete**](UserApi.md#usersIdDelete) | **DELETE** /users/{user_id} | delete user |
+| [**usersIdGet**](UserApi.md#usersIdGet) | **GET** /users/{user_id} | get user |
+| [**usersIdPatch**](UserApi.md#usersIdPatch) | **PATCH** /users/{user_id} | update user |
+| [**usersPost**](UserApi.md#usersPost) | **POST** /users | create new user |
 
 
 <a name="usersGet"></a>
@@ -21,10 +21,10 @@ get user list
 
 ### Parameters
 
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **page** | **Integer**| page number | [optional] [default to null]
- **per\_page** | **Integer**| number of items per page | [optional] [default to null]
+|Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **page** | **Integer**| page number | [optional] [default to null] |
+| **per\_page** | **Integer**| number of items per page | [optional] [default to null] |
 
 ### Return type
 
@@ -49,9 +49,9 @@ delete user
 
 ### Parameters
 
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **user\_id** | **Integer**| user id | [default to null]
+|Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **user\_id** | **Integer**| user id | [default to null] |
 
 ### Return type
 
@@ -76,9 +76,9 @@ get user
 
 ### Parameters
 
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **user\_id** | **Integer**| user id | [default to null]
+|Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **user\_id** | **Integer**| user id | [default to null] |
 
 ### Return type
 
@@ -103,10 +103,10 @@ update user
 
 ### Parameters
 
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **user\_id** | **Integer**| user id | [default to null]
- **user\_input** | [**user_input**](../Models/user_input.md)| user information |
+|Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **user\_id** | **Integer**| user id | [default to null] |
+| **user\_input** | [**user_input**](../Models/user_input.md)| user information | |
 
 ### Return type
 
@@ -131,9 +131,9 @@ create new user
 
 ### Parameters
 
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **user\_input** | [**user_input**](../Models/user_input.md)| user information |
+|Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **user\_input** | [**user_input**](../Models/user_input.md)| user information | |
 
 ### Return type
 
