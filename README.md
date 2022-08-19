@@ -65,8 +65,6 @@ paths:
 
 ### generate merged schema
 
-Almost all the editors or plugins cannot evaluate file reference using `$ref`. (as far as I know)
-
 If you need OpenAPI schema as a single JSON (or YAML) file, you can merge structured files using [openapi-generator](https://github.com/OpenAPITools/openapi-generator
 ).
 
