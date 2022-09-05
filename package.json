@@ -18,7 +18,7 @@
     "mock": "prism mock -d -p 13000 ./generated/openapi.json"
   },
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^2.5.1",
+    "@openapitools/openapi-generator-cli": "^2.5.2",
     "@stoplight/prism-cli": "^4.10.3",
     "@stoplight/spectral-cli": "^6.5.0",
     "chokidar-cli": "^3.0.0",
