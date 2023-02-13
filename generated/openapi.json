@@ -175,6 +175,26 @@
     }
   },
   "components" : {
+    "parameters" : {
+      "page" : {
+        "description" : "page number",
+        "in" : "query",
+        "name" : "page",
+        "required" : false,
+        "schema" : {
+          "type" : "integer"
+        }
+      },
+      "per_page" : {
+        "description" : "number of items per page",
+        "in" : "query",
+        "name" : "per_page",
+        "required" : false,
+        "schema" : {
+          "type" : "integer"
+        }
+      }
+    },
     "schemas" : {
       "user_list" : {
         "properties" : {
