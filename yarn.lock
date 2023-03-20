@@ -245,17 +245,17 @@
   resolved "https://registry.yarnpkg.com/@stoplight/path/-/path-1.3.2.tgz#96e591496b72fde0f0cdae01a61d64f065bd9ede"
   integrity sha512-lyIc6JUlUA8Ve5ELywPC8I2Sdnh1zc1zmbYgVarhXIp9YeAB0ReeqmGEOWNtlHkbP2DAA1AL65Wfn2ncjK/jtQ==
 
-"@stoplight/prism-cli@^4.10.5":
-  version "4.10.5"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-cli/-/prism-cli-4.10.5.tgz#e809d2575632bbb59151dd5bd85c2c5366062e63"
-  integrity sha512-1DB3fNM+Lj7oSgfFQK+Zc8TY1lK4S5I9KB5hhJbTjqXFXhYNWucmDxcTyQWiNTp/FBOxGtuMpg+z0sr27Z/vkw==
+"@stoplight/prism-cli@^4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-cli/-/prism-cli-4.11.1.tgz#d2abeb23762f3547796439290e24176a68cc952c"
+  integrity sha512-GtRvBSOXD0XjN2ZUZ7H4Q7wmL7gF5eI8kesOv2MQl/WPbQr0skrArLjfe81g4XUv2Nic50mJGelz/w8scKbZ7w==
   dependencies:
     "@stoplight/http-spec" "^5.5.2"
     "@stoplight/json" "^3.18.1"
     "@stoplight/json-schema-ref-parser" "9.2.1"
-    "@stoplight/prism-core" "^4.10.5"
-    "@stoplight/prism-http" "^4.10.5"
-    "@stoplight/prism-http-server" "^4.10.5"
+    "@stoplight/prism-core" "^4.11.1"
+    "@stoplight/prism-http" "^4.11.1"
+    "@stoplight/prism-http-server" "^4.11.1"
     "@stoplight/types" "^13.6.0"
     chalk "^4.1.2"
     chokidar "^3.5.2"
@@ -271,23 +271,23 @@
     urijs "^1.19.11"
     yargs "^16.2.0"
 
-"@stoplight/prism-core@^4.10.5":
-  version "4.10.5"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-core/-/prism-core-4.10.5.tgz#986b2a2810b11a4ae5b0cbada1489547828962e3"
-  integrity sha512-HF6ScLTvW1J8scylJKoYh3k7vXGKTjOw3l8w7XpOoCM0VUDGG3w+9GBzTMmLCLpvvC+m1gaaTk1j58m8p2P11A==
+"@stoplight/prism-core@^4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-core/-/prism-core-4.11.1.tgz#b81bbc0be9584c5b31fb02aec7035fa05559dd34"
+  integrity sha512-iqWQk0g9qLsNNBnWXOuQ4CxRHYRiPGRxE3cR2As3SpxGjJWsX1BSEwsld2wjSGRpLG7V6VsKt4dWTkaC9aJicA==
   dependencies:
     fp-ts "^2.11.5"
     lodash "^4.17.21"
     pino "^6.13.3"
     tslib "^2.3.1"
 
-"@stoplight/prism-http-server@^4.10.5":
-  version "4.10.5"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-http-server/-/prism-http-server-4.10.5.tgz#21cf905a921244aada6fc911a0c6d194f4984a10"
-  integrity sha512-rUFYVxnL/8+PVuwP9Bca5K+sv4QorpHcSyO6lj2/e8lwaWxMcUjXBZwxo8Qc7sr4baO+thM5yhlMmN7zc5mtYA==
+"@stoplight/prism-http-server@^4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-http-server/-/prism-http-server-4.11.1.tgz#9d62a278f27c2e38f4a8ece7fcef611a438078d6"
+  integrity sha512-IjWkEB/kPwEy/uBsKHu4uihcK9l4cARE44WYgZ/CMXAdwqHeK5ZT/W0wIAKGxguWQOTuAOye05CzkNTKK0Eokg==
   dependencies:
-    "@stoplight/prism-core" "^4.10.5"
-    "@stoplight/prism-http" "^4.10.5"
+    "@stoplight/prism-core" "^4.11.1"
+    "@stoplight/prism-http" "^4.11.1"
     "@stoplight/types" "^13.0.0"
     fast-xml-parser "^3.20.3"
     fp-ts "^2.11.5"
@@ -299,16 +299,16 @@
     tslib "^2.3.1"
     type-is "^1.6.18"
 
-"@stoplight/prism-http@^4.10.5":
-  version "4.10.5"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-http/-/prism-http-4.10.5.tgz#c31b7201e3ff6251b0599f4eb6c466cfc94f4d78"
-  integrity sha512-jlA0oF4n1cUf9kfmGf3mWcXbbeyHRFqYObeIbfgPmc4WcmQLEKOw4pDOo1xpmO516PLHEeqtyd4EtRGtn/JZHg==
+"@stoplight/prism-http@^4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-http/-/prism-http-4.11.1.tgz#03c171cfca2eb42876010c2f2c2acf678c0dfab5"
+  integrity sha512-IwPzPGQX/bF7u+mMtWyALI9ulucCTBQCma7hvWLrg4YMOij8ieB+6KR+PqQ5p/0kBnj/g9JhPBAouL1L10LUSQ==
   dependencies:
     "@faker-js/faker" "^6.0.0"
     "@stoplight/json" "^3.18.1"
     "@stoplight/json-schema-merge-allof" "0.7.8"
     "@stoplight/json-schema-sampler" "0.2.2"
-    "@stoplight/prism-core" "^4.10.5"
+    "@stoplight/prism-core" "^4.11.1"
     "@stoplight/types" "^13.0.0"
     "@stoplight/yaml" "^4.2.3"
     abstract-logging "^2.0.1"
