@@ -243,10 +243,10 @@
     isomorphic-fetch "^3.0.0"
     node-abort-controller "^3.0.1"
 
-"@stoplight/json-schema-sampler@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-sampler/-/json-schema-sampler-0.2.2.tgz#e64264977e7407e5019768735bb56579678838ee"
-  integrity sha512-QP4ZwXh3dEn5wHZs2361kdf4BmaKiiP+pxIImAuVTLmulv9sBTB+ETG7Y5z9u4DOUQu2GNxfUY10iSwuBQMXrg==
+"@stoplight/json-schema-sampler@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-sampler/-/json-schema-sampler-0.3.0.tgz#0d20ccc37e886cdcb4ec1955efe7fad60938f635"
+  integrity sha512-G7QImi2xr9+8iPEg0D9YUi1BWhIiiEm19aMb91oWBSdxuhezOAqqRP3XNY6wczHV9jLWW18f+KkghTy9AG0BQA==
   dependencies:
     "@types/json-schema" "^7.0.7"
     json-pointer "^0.6.1"
@@ -273,17 +273,17 @@
   resolved "https://registry.yarnpkg.com/@stoplight/path/-/path-1.3.2.tgz#96e591496b72fde0f0cdae01a61d64f065bd9ede"
   integrity sha512-lyIc6JUlUA8Ve5ELywPC8I2Sdnh1zc1zmbYgVarhXIp9YeAB0ReeqmGEOWNtlHkbP2DAA1AL65Wfn2ncjK/jtQ==
 
-"@stoplight/prism-cli@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-cli/-/prism-cli-5.0.1.tgz#039600a70e0a9fc0edb16852feb7b2370c8cc422"
-  integrity sha512-A13olRGUOeAxWWdv2lJ7JaufRmsvdVRNCYcyOjg17CTyIkZF46I0y3mvlHtICDDBH/85GjOk3OXI7a/UkQsSDA==
+"@stoplight/prism-cli@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-cli/-/prism-cli-5.3.1.tgz#2788db96d34fe03c8fc5cebb45a3bc1f25d8b8d5"
+  integrity sha512-Lvn+73Fw5R/d6ohTBFZF827+hcrtAPzDtndaLe4ArinlqXLrlWPorWw2N8OwZmroNzTkdjtStnPgGD1Z+GxjYQ==
   dependencies:
     "@stoplight/http-spec" "^5.9.2"
     "@stoplight/json" "^3.18.1"
     "@stoplight/json-schema-ref-parser" "9.2.5"
-    "@stoplight/prism-core" "^5.0.1"
-    "@stoplight/prism-http" "^5.0.1"
-    "@stoplight/prism-http-server" "^5.0.1"
+    "@stoplight/prism-core" "^5.3.1"
+    "@stoplight/prism-http" "^5.3.1"
+    "@stoplight/prism-http-server" "^5.3.1"
     "@stoplight/types" "^13.15.0"
     chalk "^4.1.2"
     chokidar "^3.5.2"
@@ -299,23 +299,23 @@
     urijs "^1.19.11"
     yargs "^16.2.0"
 
-"@stoplight/prism-core@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-core/-/prism-core-5.0.1.tgz#cb46a13331ad0a6060ff4584193b4a374ca1d3e4"
-  integrity sha512-rHdhmDrhBDg7yYipLJWlD/jRyECif5bAqDMVfobx1F6mzw+Yfc1YgXQbTgc+6oPwk8SgEr7+WQBq5jCi0ezHYw==
+"@stoplight/prism-core@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-core/-/prism-core-5.3.1.tgz#1ca1bd66e8cef262371998b5d1379703323c10c1"
+  integrity sha512-eMtSv8dokTRUOIU9HMaiQfWdjrtqHXuEce3tNwYqlIdpfpeiTB7xQSJqP7dCnBSAGXkg50J0sMh2aOY8rntfmw==
   dependencies:
     fp-ts "^2.11.5"
     lodash "^4.17.21"
     pino "^6.13.3"
     tslib "^2.3.1"
 
-"@stoplight/prism-http-server@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-http-server/-/prism-http-server-5.0.1.tgz#31040ee4654092ea1ffb0d84e0ec8aa79c40ab06"
-  integrity sha512-VeDvw35JvEluyO1h5VEcxTlYwGLrk3GILLZNOB9oRoy31kwXyPrP4mdaFoAVyqfqa+wMkXmWn/6HdPDBsZTb+w==
+"@stoplight/prism-http-server@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-http-server/-/prism-http-server-5.3.1.tgz#82378df2640188467395ff590121703fcf3f790f"
+  integrity sha512-udrpqiwLkUe0NhOwemCtE+avua+eIJB81cJUUdjUTxTGxGecX3EAIvHM2w4Ac4eVThSugWH49VXBz17qYYQtOw==
   dependencies:
-    "@stoplight/prism-core" "^5.0.1"
-    "@stoplight/prism-http" "^5.0.1"
+    "@stoplight/prism-core" "^5.3.1"
+    "@stoplight/prism-http" "^5.3.1"
     "@stoplight/types" "^13.15.0"
     fast-xml-parser "^4.2.0"
     fp-ts "^2.11.5"
@@ -327,16 +327,16 @@
     tslib "^2.3.1"
     type-is "^1.6.18"
 
-"@stoplight/prism-http@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/prism-http/-/prism-http-5.0.1.tgz#52510a13cf9433e7ce6888d808996ce62b837e34"
-  integrity sha512-/esXjNBbXjxZPtl3WyuvkgHUH7l3eDgOwIOP26qLH10BE3jlKR7IHF1gwZgEKdtBhQKQ0/2tB4fPJSAPaU2Blg==
+"@stoplight/prism-http@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/prism-http/-/prism-http-5.3.1.tgz#b0684e9e861ffdca3dfe6723432a1fdf6d0d8886"
+  integrity sha512-GmnmAeBAFG2/rNYJIH1K7ev1M4eB8iH3b1RnkgJj60qVNWIea8Cd3T7n9bl6+ykwMEbDHOtFfEl5Il4kLDaTjA==
   dependencies:
     "@faker-js/faker" "^6.0.0"
     "@stoplight/json" "^3.18.1"
     "@stoplight/json-schema-merge-allof" "0.7.8"
-    "@stoplight/json-schema-sampler" "0.2.2"
-    "@stoplight/prism-core" "^5.0.1"
+    "@stoplight/json-schema-sampler" "0.3.0"
+    "@stoplight/prism-core" "^5.3.1"
     "@stoplight/types" "^13.15.0"
     "@stoplight/yaml" "^4.2.3"
     abstract-logging "^2.0.1"
@@ -352,10 +352,12 @@
     json-schema-faker "0.5.0-rcv.40"
     lodash "^4.17.21"
     node-fetch "^2.6.5"
+    parse-multipart-data "^1.5.0"
     pino "^6.13.3"
     tslib "^2.3.1"
     type-is "^1.6.18"
     uri-template-lite "^22.9.0"
+    whatwg-mimetype "^3.0.0"
 
 "@stoplight/spectral-cli@^6.10.1":
   version "6.10.1"
@@ -2385,6 +2387,11 @@ parse-json@^4.0.0:
     error-ex "^1.3.1"
     json-parse-better-errors "^1.0.1"
 
+parse-multipart-data@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/parse-multipart-data/-/parse-multipart-data-1.5.0.tgz#ab894cc6c40229d0a2042500e120df7562d94b87"
+  integrity sha512-ck5zaMF0ydjGfejNMnlo5YU2oJ+pT+80Jb1y4ybanT27j+zbVP/jkYmCrUGsEln0Ox/hZmuvgy8Ra7AxbXP2Mw==
+
 parse-prefer-header@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/parse-prefer-header/-/parse-prefer-header-1.0.0.tgz#75aeb73766bb6531dde063ee023876ead49648f7"
@@ -3155,6 +3162,11 @@ whatwg-fetch@^3.4.1:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
   integrity sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==
+
+whatwg-mimetype@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-mimetype/-/whatwg-mimetype-3.0.0.tgz#5fa1a7623867ff1af6ca3dc72ad6b8a4208beba7"
+  integrity sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==
 
 whatwg-url@^5.0.0:
   version "5.0.0"
