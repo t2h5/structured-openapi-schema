@@ -5,19 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Use Node.js 16.x
-      uses: actions/setup-node@v4
+    - uses: actions/setup-node@v4
       with:
-        node-version: 16.x
-    - name: cache node_modules
-      id: node_modules_cache_id
-      uses: actions/cache@v3
-      with:
-        path: |
-          node_modules
-          packages/*/node_modules
-          distributions/*/node_modules
-        key: node-v${{ matrix.node-version }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+        node-version: 20.x
+        cache: 'yarn'
     - run: yarn install
     - run: yarn lint
     - run: yarn build
